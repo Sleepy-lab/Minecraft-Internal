@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\cheat">
+      <UniqueIdentifier>{e0ad67ec-027e-4d1c-9fca-efed2c520648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\math">
+      <UniqueIdentifier>{1c169c5c-a8d5-4547-860e-64fcb8bd7c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\vec">
+      <UniqueIdentifier>{fd672c94-aa39-4a8c-95fb-202389f22f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\minhook">
+      <UniqueIdentifier>{48ac0506-3839-4f55-b35b-8768e1375bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\minecraft">
+      <UniqueIdentifier>{5a202c64-5e97-4aff-89e4-7a82bfbb4ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\hooks">
+      <UniqueIdentifier>{45a4ed22-f53b-45bf-b9d5-ca7ef011dcfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{2c1c3192-13ae-4377-a0fb-4583be32d7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\modules">
+      <UniqueIdentifier>{130a08fc-b226-4720-83be-2378b39a5af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\modules\visual">
+      <UniqueIdentifier>{a6ffbcdb-9a70-4875-be65-29877c02b2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\modules\visual\gui">
+      <UniqueIdentifier>{9b6417af-2781-464b-b034-c072b79f5c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\modules\movement">
+      <UniqueIdentifier>{e75d22d0-f622-4bc5-8538-defe95013bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\modules\combat">
+      <UniqueIdentifier>{5e11798a-f95e-4b72-bdf0-cd7da6b09faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\modules\combat\aim">
+      <UniqueIdentifier>{0c2e00ff-1fb0-4034-835c-fb21a7ffb185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\minecraft\player">
+      <UniqueIdentifier>{6af43763-69a0-4461-88fb-0a0ea5fd44f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\minecraft\render">
+      <UniqueIdentifier>{2a41cef3-d5b4-44fa-8474-295a665bb82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\minecraft\world">
+      <UniqueIdentifier>{104059bd-05f0-4272-8ec2-39e0a0e7f304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\modules\visual\esp">
+      <UniqueIdentifier>{b69ad0e6-3799-40ae-81b2-b3b910965cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\minecraft\timer">
+      <UniqueIdentifier>{47384982-39bd-40d6-99ba-3234e55bde7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\modules\movement\timer">
+      <UniqueIdentifier>{e9ddabaa-76ad-41c5-8044-a7205163edc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\minecraft\gamesettings">
+      <UniqueIdentifier>{99ca13dc-0e57-420b-b30b-5502f0473582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\modules\movement\blink">
+      <UniqueIdentifier>{353b1dc4-4790-4cea-92ac-c04c0291c869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\modules\visual\fullbright">
+      <UniqueIdentifier>{e8643ff2-b86d-42d1-9240-e6028256af98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\modules\movement\sprint">
+      <UniqueIdentifier>{77301bef-d2ef-47bc-9851-a0457a4ef059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\modules\combat\clicker">
+      <UniqueIdentifier>{c3fef056-14ec-48ce-8c05-84730a782b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat\modules\combat\triggerbot">
+      <UniqueIdentifier>{19cb729f-4cf8-42dd-9d9a-f61706080603}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cheat\cheat.cpp">
+      <Filter>Source Files\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\math\math.cpp">
+      <Filter>Source Files\cheat\math</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\vec\vec.cpp">
+      <Filter>Source Files\cheat\vec</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\minhook\hde64.c">
+      <Filter>Source Files\cheat\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\minhook\hook.c">
+      <Filter>Source Files\cheat\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\minhook\trampoline.c">
+      <Filter>Source Files\cheat\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\minhook\buffer.c">
+      <Filter>Source Files\cheat\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\minhook\hde32.c">
+      <Filter>Source Files\cheat\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\minecraft\c_minecraft.cpp">
+      <Filter>Source Files\cheat\minecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\hooks\wglSwapBuffers.cpp">
+      <Filter>Source Files\cheat\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\hooks\wndproc.cpp">
+      <Filter>Source Files\cheat\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\modules\visual\gui\gui.cpp">
+      <Filter>Source Files\cheat\modules\visual\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\modules\combat\aim\aim.cpp">
+      <Filter>Source Files\cheat\modules\combat\aim</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\minecraft\player\c_player.cpp">
+      <Filter>Source Files\cheat\minecraft\player</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\minecraft\render\activerenderinfo.cpp">
+      <Filter>Source Files\cheat\minecraft\render</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\minecraft\world\c_world.cpp">
+      <Filter>Source Files\cheat\minecraft\world</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\modules\visual\esp\esp.cpp">
+      <Filter>Source Files\cheat\modules\visual\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\minecraft\render\c_rendermanager.cpp">
+      <Filter>Source Files\cheat\minecraft\render</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\minecraft\timer\c_timer.cpp">
+      <Filter>Source Files\cheat\minecraft\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\modules\movement\timer\timer.cpp">
+      <Filter>Source Files\cheat\modules\movement\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\minecraft\gamesettings\c_gamesettings.cpp">
+      <Filter>Source Files\cheat\minecraft\gamesettings</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\hooks\WSASend.cpp">
+      <Filter>Source Files\cheat\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\modules\movement\blink\blink.cpp">
+      <Filter>Source Files\cheat\modules\movement\blink</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\modules\visual\fullbright\fullbright.cpp">
+      <Filter>Source Files\cheat\modules\visual\fullbright</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\modules\movement\sprint\sprint.cpp">
+      <Filter>Source Files\cheat\modules\movement\sprint</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\modules\threads.cpp">
+      <Filter>Source Files\cheat\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\modules\combat\clicker\clicker.cpp">
+      <Filter>Source Files\cheat\modules\combat\clicker</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\modules\combat\triggerbot\triggerbot.cpp">
+      <Filter>Source Files\cheat\modules\combat\triggerbot</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\modules\visual\esp\hud.cpp">
+      <Filter>Source Files\cheat\modules\visual\esp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cheat\include.h">
+      <Filter>Source Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\cheat.h">
+      <Filter>Source Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\math\math.h">
+      <Filter>Source Files\cheat\math</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\vec\vec.h">
+      <Filter>Source Files\cheat\vec</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\minhook\hde64.h">
+      <Filter>Source Files\cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\minhook\MinHook.h">
+      <Filter>Source Files\cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\minhook\pstdint.h">
+      <Filter>Source Files\cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\minhook\table32.h">
+      <Filter>Source Files\cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\minhook\table64.h">
+      <Filter>Source Files\cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\minhook\trampoline.h">
+      <Filter>Source Files\cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\minhook\buffer.h">
+      <Filter>Source Files\cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\minhook\hde32.h">
+      <Filter>Source Files\cheat\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\minecraft\c_minecraft.h">
+      <Filter>Source Files\cheat\minecraft</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl3.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\modules\visual\gui\gui.h">
+      <Filter>Source Files\cheat\modules\visual\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\modules\combat\aim\aim.h">
+      <Filter>Source Files\cheat\modules\combat\aim</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\minecraft\c_context.h">
+      <Filter>Source Files\cheat\minecraft</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\minecraft\player\c_player.h">
+      <Filter>Source Files\cheat\minecraft\player</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\minecraft\render\activerenderinfo.h">
+      <Filter>Source Files\cheat\minecraft\render</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\minecraft\world\c_world.h">
+      <Filter>Source Files\cheat\minecraft\world</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\modules\visual\esp\esp.h">
+      <Filter>Source Files\cheat\modules\visual\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\minecraft\render\c_rendermanager.h">
+      <Filter>Source Files\cheat\minecraft\render</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\minecraft\timer\c_timer.h">
+      <Filter>Source Files\cheat\minecraft\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\modules\movement\timer\timer.h">
+      <Filter>Source Files\cheat\modules\movement\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\minecraft\gamesettings\c_gamesettings.h">
+      <Filter>Source Files\cheat\minecraft\gamesettings</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\modules\movement\blink\blink.h">
+      <Filter>Source Files\cheat\modules\movement\blink</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\modules\visual\fullbright\fullbright.h">
+      <Filter>Source Files\cheat\modules\visual\fullbright</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\modules\movement\sprint\sprint.h">
+      <Filter>Source Files\cheat\modules\movement\sprint</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\modules\threads.h">
+      <Filter>Source Files\cheat\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\modules\combat\clicker\clicker.h">
+      <Filter>Source Files\cheat\modules\combat\clicker</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\modules\combat\triggerbot\triggerbot.h">
+      <Filter>Source Files\cheat\modules\combat\triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\modules\visual\esp\hud.h">
+      <Filter>Source Files\cheat\modules\visual\esp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="cheat\modules\visual\Proxima-Nova-Light.ttf">
+      <Filter>Source Files\cheat\modules\visual\gui</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
